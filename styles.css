@@ -1,0 +1,256 @@
+html,
+body {
+  background-color: black;
+  padding: 0;
+}
+
+a {
+  font-size: 1.2vw;
+  color: black;
+  margin-top: 2vw;
+  text-decoration: none;
+}
+
+.gray {
+  background-color: #c4c4c4;
+}
+
+.page {
+  /* width: 100vw; */
+  height: 100vh;
+}
+
+h1 {
+  color: white;
+  text-align: right;
+}
+
+p,
+ul,
+li,
+h2 {
+  font-size: 1.2vw;
+}
+
+.white-txt {
+  color: white;
+}
+
+.logo {
+  width: 20vw;
+  /* border: 1px red solid; */
+}
+
+.back-arrow {
+  width: 3vw;
+  height: 3vw;
+  /* border: 1px red solid; */
+  margin-top: 9vh;
+}
+
+.logo-container {
+  /* width: 100%; */
+  height: 30vh;
+  padding-left: 3vw;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  /* border: white 1px solid; */
+}
+
+.main-info-container {
+  /* width: 100vw; */
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 3vw;
+  /* border: red 2px solid; */
+}
+
+.logo-cocrea {
+  width: 20vw;
+}
+
+.info-page {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-pane {
+  width: 40vw;
+  padding: 3vw;
+  text-align: right;
+}
+
+.right-pane {
+  width: 60vw;
+  background-color: white;
+  padding: 3vw;
+  text-align: justify;
+}
+
+.left-pane-txt {
+  color: white;
+}
+
+.gray-page {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-gray-col {
+  padding: 8vh 0 12vh 4vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 50vw;
+}
+
+.right-gray-col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  width: 50vw;
+}
+
+.notes {
+  margin: 5vh 0 5vh 0;
+  opacity: 0.4;
+}
+
+.arrow-down-gray-page {
+  margin-top: 4vh;
+  width: 3vw;
+  height: 7vw;
+}
+
+.arrow-down {
+  width: 6vw;
+  height: 6vw;
+}
+
+.column {
+  width: 33.3vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.gray-col-1 {
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.horizontal-line {
+  margin: 0 0 4vh 4vw;
+}
+
+.gray-col-2 {
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.gray-col-3 {
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.number {
+  padding: 2vw;
+  font-size: 3vw;
+}
+
+.footer-page {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px black solid;
+  padding: 1vw;
+  width: 17vw;
+  height: 10vh;
+  text-align: center;
+  cursor: pointer;
+}
+.gray-page-mobile {
+  display: none;
+}
+
+.align-self-left {
+  align-self: flex-start;
+}
+
+@media only screen and (max-width: 600px) {
+  a {
+    font-size: 2.8vw;
+  }
+
+  .logo {
+    width: 40vw;
+    /* border: 1px red solid; */
+  }
+
+  .logo-cocrea {
+    width: 25vw;
+  }
+
+  .back-arrow {
+    width: 6vw;
+    height: 6vw;
+    /* border: 1px red solid; */
+    /* margin-top: 9vh; */
+  }
+
+  .left-pane-txt {
+    font-size: 2.5vw;
+  }
+
+  p,
+  ul,
+  li,
+  h2 {
+    font-size: 3vw;
+  }
+
+  .left-pane {
+    text-align: center;
+    width: 20vw;
+    padding: 1vw;
+  }
+
+  .right-pane {
+    width: 80vw;
+    padding: 5vw;
+  }
+
+  .gray-page,
+  .footer-page {
+    display: none;
+  }
+  .gray-page-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 8vw;
+  }
+
+  .number {
+    font-size: 7vw;
+  }
+
+  .btn {
+    width: 50vw;
+    height: 8vh;
+  }
+}
