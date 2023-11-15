@@ -70,6 +70,7 @@ h2 {
 
 .logo-cocrea {
   width: 20vw;
+  padding: 2vw;
 }
 
 .info-page {
@@ -188,6 +189,31 @@ h2 {
 
 .align-self-left {
   align-self: flex-start;
+}
+
+.logos-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.logos-container {
+  display: flex;
+  flex-direction: row;
+  width: 50vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-unit {
+  width: 9vw;
+  margin: 2vh;
+}
+
+.ford {
+  filter: brightness(0) invert(1);
 }
 
 @media only screen and (max-width: 600px) {
