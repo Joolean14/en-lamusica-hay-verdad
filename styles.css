@@ -119,7 +119,11 @@ h2 {
 
 .notes {
   margin: 5vh 0 5vh 0;
-  opacity: 0.4;
+  opacity: 0.55;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 .arrow-down-gray-page {
@@ -208,7 +212,7 @@ h2 {
 }
 
 .logo-unit {
-  width: 9vw;
+  width: 15vw;
   margin: 2vh;
 }
 
@@ -227,6 +231,10 @@ h2 {
   }
 
   .logo-cocrea {
+    width: 25vw;
+  }
+
+  .logo-unit {
     width: 25vw;
   }
 
