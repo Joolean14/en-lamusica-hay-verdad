@@ -126,6 +126,14 @@ h2 {
   font-weight: bold;
 }
 
+.italic {
+font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
 .arrow-down-gray-page {
   margin-top: 4vh;
   width: 3vw;
