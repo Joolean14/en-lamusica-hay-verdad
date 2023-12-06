@@ -126,6 +126,14 @@ h2 {
   font-weight: bold;
 }
 
+.centered {
+  text-align: center;
+}
+
+.big-text {
+  font-size: 2vw;
+}
+
 .italic {
 font-style: italic;
 }
@@ -294,5 +302,9 @@ font-style: italic;
   .btn {
     width: 50vw;
     height: 8vh;
+  }
+
+  .big-text {
+    font-size: 4vw;
   }
 }
